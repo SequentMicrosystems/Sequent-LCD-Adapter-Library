@@ -1,5 +1,5 @@
 # Sequent-LCD-Adapter-Library
-Arduino library for Sequent Microsystems [Six-in-one LCD Adapter Kit for Raspberry Pi](https://https://sequentmicrosystems.com/products/six-in-one-lcd-adapter-kit-br-using-2004-or-1602-lcds-br-for-raspberry-pi)
+Arduino library for Sequent Microsystems [Six-in-one LCD Adapter Kit for Raspberry Pi](https://sequentmicrosystems.com/products/six-in-one-lcd-adapter-kit-using-2004-or-1602-lcds-for-raspberry-pi)
 
 ## Install
 To download click <>Code > Download ZIP button, rename the uncompressed folder to "SM_LCD_Adaptor" 
