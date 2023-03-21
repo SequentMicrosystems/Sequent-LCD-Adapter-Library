@@ -66,11 +66,12 @@ void rightErase4Line(void)
 
 void setup() {
   Serial.begin (115200);
-  delay(500);
-  lcd.writeBl(20);
-
-
+  
+  // set up the LCD's number of columns and rows:
   lcd.begin(20, 4);
+  
+  //set the backlight
+  lcd.writeBl(20);
 
   Serial.println("Sequent display init successful");
   lcd.setCursor(1, 0);

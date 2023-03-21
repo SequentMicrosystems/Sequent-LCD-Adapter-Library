@@ -11,6 +11,7 @@ SM_LCDAdapter::SM_LCDAdapter(uint8_t intPin)
 {
   _displayfunction = LCD_8BITMODE | LCD_1LINE | LCD_5x8DOTS;
   _interruptPin = intPin;
+
 }
 
 
@@ -21,7 +22,7 @@ void SM_LCDAdapter::begin(uint8_t cols, uint8_t lines, uint8_t dotsize) {
   _numlines = lines;
 
   setRowOffsets(0x00, 0x40, 0x00 + cols, 0x40 + cols);
-
+  delay(500);// bootup time
   // for some 1 line displays you can select a 10 pixel high font
   if ((dotsize != LCD_5x8DOTS) && (lines == 1)) {
     _displayfunction |= LCD_5x10DOTS;

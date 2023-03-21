@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+examples/customChar/esp32.svd
+examples/customChar/debug.cfg
+examples/customChar/debug_custom.json
