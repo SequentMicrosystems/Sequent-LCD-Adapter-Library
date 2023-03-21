@@ -2,7 +2,10 @@
 Arduino library for Sequent Microsystems [Six-in-one LCD Adapter Kit for Raspberry Pi](https://sequentmicrosystems.com/products/six-in-one-lcd-adapter-kit-using-2004-or-1602-lcds-for-raspberry-pi)
 
 ## Install
-To download click <>Code > [Download ZIP](https://github.com/SequentMicrosystems/Sequent-LCD-Adapter-Library/archive/refs/heads/main.zip) button, rename the uncompressed folder to "SM_LCD_Adapter" 
+### Library manager
+Go to **Tools**>>**Manage Libraries..** menu and search for *SM_LCDAdapter* and click install 
+### Manual install
+To download click <>Code > [Download ZIP](https://github.com/SequentMicrosystems/Sequent-LCD-Adapter-Library/archive/refs/heads/main.zip) button, rename the uncompressed folder to "SM_LCDAdapter" 
 and copy to the libraries subdirectory of your sketchbook directory ("This PC > Documents > Arduino > libraries" for a Windows PC
  or "Home > arduino > libraries" on Linux PC). Now launch the Arduino environment. If you open the Sketch > Include Library menu, you should see Sequent LCD Adaptor HAT inside. 
  The library will be compiled with sketches that use it. Open an arduino sketch, go to File > Examples > Sequent LCD Adaptor HAT > and chose your example to run.
